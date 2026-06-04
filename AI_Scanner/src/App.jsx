@@ -1,7 +1,13 @@
 import React from 'react'
+import Scanner from './Scanner/Scanner'
 
-export const App = () => {
+
+const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Scanner/>
+    </div>
   )
 }
+
+export default App
